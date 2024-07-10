@@ -1,3 +1,5 @@
+package me
+
 fun renderProductTable(): String {
     return html {
         table {
