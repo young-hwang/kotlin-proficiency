@@ -1,4 +1,4 @@
-package me
+package me.html
 
 fun renderProductTable(): String {
     return html {

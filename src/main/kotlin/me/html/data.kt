@@ -1,4 +1,4 @@
-package me
+package me.html
 
 data class Product(val description: String, val price: Double, val popularity: Int)
 

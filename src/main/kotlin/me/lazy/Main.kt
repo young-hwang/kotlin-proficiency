@@ -1,11 +1,4 @@
-package me
-
-import Customer
-import LazyProperty
-import Order
-import Product
-import Shop
-import task
+package me.lazy
 
 fun findMostExpensiveProductBy(customer: Customer): Product? {
     return customer.orders

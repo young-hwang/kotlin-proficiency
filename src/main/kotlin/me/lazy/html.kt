@@ -1,3 +1,5 @@
+package me.lazy
+
 open class Tag(val name: String) {
     val children = mutableListOf<Tag>()
     val attributes = mutableListOf<Attribute>()
