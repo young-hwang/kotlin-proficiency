@@ -13,9 +13,9 @@ fun foldGroup(v:String):Double = groupMD.findAll(v).fold(0.0){ acc, curr ->
         "/" -> leftValue / rightValue
         else -> throw Throwable("invalid operator $op")
     }
-    acc + result
+    return acc + result
 }
 
 fun main() {
-    println(foldGroup("-2*-3+0.4/-0.2"))
+    println(foldGroup(repMtoPM(trim("-2*-3+0.4/-0.2"))))
 }
